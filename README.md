@@ -9,10 +9,6 @@ This project implements a **simplified search engine in Java**, combining **grap
   - Builds a **directed graph** (`MyWebGraph`) with vertices as URLs and edges as hyperlinks.  
   - Updates a **hash-based word index** mapping words → URLs, case-insensitive and without duplicates.  
 
-- **PageRank Algorithm:**  
-  - Handles cycles and multiple incoming/outgoing links efficiently.  
-  - Uses `computeRanks` helper method to perform rank updates until convergence.  
-
 - **Search Queries:**  
   - Supports single-word queries.  
   - Returns **ranked URLs** using `fastSort` (merge sort) or `slowSort` (bubble sort) from `Sorting.java`.  
